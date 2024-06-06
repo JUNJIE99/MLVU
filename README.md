@@ -3,7 +3,11 @@
 [Paper](Arxiv Link) [Dataset](https://huggingface.co/datasets/JUNJIE99/MLVU)
 
 ## License
-Our dataset is under the CC-BY-NC-SA-4.0 license. **We do not own the copyright of any original video files**. If you need to access and use our dataset, you must understand and agree: **this dataset is for research purposes only and cannot be used for any commercial or other purposes**. The user assumes all effects arising from any other use and dissemination.
+Our dataset is under the CC-BY-NC-SA-4.0 license.
+
+**We do not own the copyright of any original video files**. 
+
+If you need to access and use our dataset, you must understand and agree: **this dataset is for research purposes only and cannot be used for any commercial or other purposes**. The user assumes all effects arising from any other use and dissemination.
 
 
 
