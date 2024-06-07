@@ -4,11 +4,9 @@
             <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2406.04264-B31B1B.svg">
     </a>
     <a href="https://huggingface.co/datasets/MLVU/MVLU">
-        <img alt="Build" src="https://img.shields.io/badge/MLVU Benchmark-🤗-yellow">
+        <img alt="Build" src="https://img.shields.io/badge/🤗-MLVU Benchmark-yellow">
     </a>
 </p>
-
-
 
 
 
