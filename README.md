@@ -18,14 +18,35 @@ This repo contains the annotation data and evaluation code for the paper "[MLVU:
 ## Introduction
 We introduce MLVU: the first comprehensive benchmark designed for evaluating Multimodal Large Language Models (MLLMs) in Long Video Understanding (LVU) tasks. MLVU is constructed from a wide variety of long videos, with lengths ranging from 3 minutes to 2 hours, and includes nine distinct evaluation tasks. These tasks challenge MLLMs to handle different types of tasks, leveraging both global and local information from videos. Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challenges in LVU, with even the top-performing GPT-4o only achieving an average score of 64.6% in multi-choice tasks. In addition, our empirical results underscore the need for improvements in context length, image understanding, and strong LLM-backbones. We anticipate that MLVU will serve as a catalyst for the community to further advance MLLMs' capabilities in understanding long videos.
 
-![Statistical overview of our LVBench dataset. **Left:** Distribution of Video Duration; **Middle** Distribution of Source Types for Long Videos; **Right:** Quantification of Each Task Type.](./figs/statistic.png)
+![Statistical overview of our LVBench dataset. **Left:** Distribution of Video Duration; **Middle** Distribution of Source Types for Long Videos; **Right:** Quantification of Each Task Type.](./statistic.png)
 
 
 
 ## :trophy: Mini-Leaderboard
 
-
-
+| Model | Input | M-Avg | G-Avg |
+| --- | --- | --- | --- |
+| Full mark | - | 100 | 10 |
+| GPT-4o | - | 64.6 | 5.80 |
+| InternVL-1.5 | - | 50.4 | 4.02 |
+| GPT-4 Turbo | - | 49.2 | 5.35 |
+| Video-LLaVA | - | 47.3 | 3.84 |
+| VideoChat2 | - | 44.5 | 3.81 |
+| MiniGPT4-Video | - | 44.5 | 3.36 |
+| Qwen-VL-Max | - | 42.2 | 3.96 |
+| LLaVA-1.6 | - | 39.3 | 3.23 |
+| Claude-3-Opus | - | 36.5 | 3.39 |
+| MA-LMM | - | 36.4 | 3.46 |
+| Video-LLaMA-2 | - | 35.5 | 3.78 |
+| LLaMA-VID | - | 33.2 | 4.22 |
+| Video-ChatGPT | - | 31.3 | 3.90 |
+| TimeChat | - | 30.9 | 3.42 |
+| VideoChat | - | 29.2 | 3.66 |
+| Movie-LLM | - | 26.1 | 3.94 |
+| mPLUG-Owl-V | - | 25.9 | 3.84 |
+| MovieChat | - | 25.8 | 2.78 |
+| Otter-V | - | 24.4 | 3.31 |
+| Otter-I | - | 23.3 | 3.15 |
 
 
 
@@ -53,7 +74,7 @@ The annotation file is readily accessible [here](url). For the raw videos, you c
 MLVU encompasses nine distinct tasks, which include multiple-choice tasks as well as free-form generation tasks. These tasks are specifically tailored for long-form video understanding, and are classified into three categories: holistic understanding, single detail understanding, and multi-detail understanding. Examples of the tasks are displayed below.
 
 
-![Task Examples of our MLVU.](./figs/task_example.png)
+![Task Examples of our MLVU.](./task_example.png)
 
 
 ## Evaluation
@@ -70,34 +91,7 @@ If some videos are requested to be removed, we will replace them with a set of v
 If even retaining the frame set is not allowed, we will still keep the relevant annotation files, and replace them with the meta-information of the video, or actively seek more reliable and risk-free video sources.
 
 
-## Evaluation 
-### Available Models
-(Take VideoChat2 as an example:)
-- step 1: Download orginal models as well as weights from [VideoChat2](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2)
-- step 2: Put choice_bench.py and open_bench.py into the folder as the same as demo.py  
-- step 3: modify your path of the MLVU in choice_bench.py and open_bench.py
-- step 4: run the inference and online evaluation for Multiple-choice tasks and run the inference for the generation tasks.
-```
-python choice_bench.py --name all
-```
-```
-python open_bench.py --name all
-```
-- Step 5: run the evaluation for the generation tasks.
 
-For Sub-Scene Captioning, modify your pred_path (by step 4) and output_dir then run
-```
-python evaluate_ssc.py --pred_path /VideoChat2/subplot_all.json --output_dir /eval_subplot  --output_json /eval_subplot.json
-python calculate.py --path /eval_subplot
-```
-For Video Summarization, modify your pred_path (by step 4) and output_dir then run
-```
-python evaluate_summary.py --pred_path /VideoChat2/summary_all.json --output_dir /eval_summary  --output_json /eval_summary.json
-```
-Then run, and you need to modify the path in it to your output_dir
-```
-python calculate_sum.py --path /eval_summary
-```
 
 
 ## Citation
@@ -105,9 +99,14 @@ python calculate_sum.py --path /eval_summary
 If you find this repository useful, please consider giving a star :star: and citation
 
 ```
-
+@misc{MLVU,
+      title={MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding}, 
+      author={Junjie Zhou and Yan Shu and Bo Zhao and Boya Wu and Shitao Xiao and Xi Yang and Yongping Xiong and Bo Zhang and Tiejun Huang and Zheng Liu},
+      year={2024},
+      eprint={2406.04264},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
-## License
-MLVU is licensed under the [](). 
 
