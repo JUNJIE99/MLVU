@@ -34,4 +34,5 @@ python calculate_sum.py --path /eval_summary
 - step 1: Download original models as well as weights from [VideoChat2](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2)
 - step 2: Put choice_bench.py and open_bench.py into the folder as the same as demo.py  
 - step 3: modify your path of the MLVU in choice_bench.py and open_bench.py
-- step 4: run the inference and online evaluation for Multiple-choice tasks and run the inference for the generation tasks as 
+- step 4: run the inference and online evaluation for Multiple-choice tasks.
+- step 5: run the inference and evaluation for the generation tasks. 
