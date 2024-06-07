@@ -1,6 +1,5 @@
 # MLVU: Multi-task Long Video Understanding Benchmark
-
-[Paper]([Arxiv Link](https://arxiv.org/abs/2406.04264)) [Dataset](https://huggingface.co/datasets/JUNJIE99/MLVU)
+[Paper](https://arxiv.org/abs/2406.04264) [Dataset](https://huggingface.co/datasets/JUNJIE99/MLVU)
 
 ## License
 Our dataset is under the CC-BY-NC-SA-4.0 license.
