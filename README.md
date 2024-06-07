@@ -1,3 +1,16 @@
+<h1 align="center">MLVU: Multi-task Long Video Understanding Benchmark</h1>
+<p align="center">
+    <a href="https://arxiv.org/abs/2406.04264">
+            <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2406.04264-B31B1B.svg">
+    </a>
+    <a href="https://huggingface.co/datasets/MLVU/MVLU">
+        <img alt="Build" src="https://img.shields.io/badge/MLVU Benchmark-🤗-yellow">
+    </a>
+</p>
+
+
+
+
 # MLVU: Multi-task Long Video Understanding Benchmark
 [Paper](https://arxiv.org/abs/2406.04264) [Dataset](https://huggingface.co/datasets/JUNJIE99/MLVU)
 
