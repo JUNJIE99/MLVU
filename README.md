@@ -10,13 +10,18 @@
 
 This repo contains the annotation data and evaluation code for the paper "[MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding](https://arxiv.org/abs/2406.04264)".
 
+
+
 ## :bell: News:
 - 🥳 6/7/2024: We have released the MLVU [Benchmark](https://huggingface.co/datasets/MLVU/MVLU) and [Paper](https://arxiv.org/abs/2406.04264)! :fire:
+- 🏠 6/19/2024: For better maintenance and updates of MLVU, we have migrated MLVU to this new repository. We will continue to update and maintain MLVU here. If you have any questions, feel free to raise an issue. :fire:
 
 
 
 ## Introduction
-We introduce MLVU: the first comprehensive benchmark designed for evaluating Multimodal Large Language Models (MLLMs) in Long Video Understanding (LVU) tasks. MLVU is constructed from a wide variety of long videos, with lengths ranging from 3 minutes to 2 hours, and includes nine distinct evaluation tasks. These tasks challenge MLLMs to handle different types of tasks, leveraging both global and local information from videos. Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challenges in LVU, with even the top-performing GPT-4o only achieving an average score of 64.6% in multi-choice tasks. In addition, our empirical results underscore the need for improvements in context length, image understanding, and strong LLM-backbones. We anticipate that MLVU will serve as a catalyst for the community to further advance MLLMs' capabilities in understanding long videos.
+We introduce MLVU: the first comprehensive benchmark designed for evaluating Multimodal Large Language Models (MLLMs) in Long Video Understanding (LVU) tasks. MLVU is constructed from a wide variety of long videos, with lengths ranging from 3 minutes to 2 hours, and includes nine distinct evaluation tasks. These tasks challenge MLLMs to handle different types of tasks, leveraging both global and local information from videos. 
+
+Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challenges in LVU, with even the top-performing GPT-4o only achieving an average score of 64.6% in multi-choice tasks. In addition, our empirical results underscore the need for improvements in context length, image understanding, and strong LLM-backbones. We anticipate that MLVU will serve as a catalyst for the community to further advance MLLMs' capabilities in understanding long videos.
 
 ![Statistical overview of our LVBench dataset. **Left:** Distribution of Video Duration; **Middle** Distribution of Source Types for Long Videos; **Right:** Quantification of Each Task Type.](./figs/statistic.png)
 
@@ -30,8 +35,9 @@ We introduce MLVU: the first comprehensive benchmark designed for evaluating Mul
 | GPT-4o | 0.5 fps | 64.6 | 5.80 |
 | InternVL-1.5 | 16 frm | 50.4 | 4.02 |
 | GPT-4 Turbo | 16 frm | 49.2 | 5.35 |
+| VideoChat2-Mistral | 16 frm | 47.9 | 3.99 |
 | Video-LLaVA | 8 frm | 47.3 | 3.84 |
-| VideoChat2 | 16 frm | 44.5 | 3.81 |
+| VideoChat2-Vicuna | 16 frm | 44.5 | 3.81 |
 | MiniGPT4-Video | 90 frm | 44.5 | 3.36 |
 | Qwen-VL-Max | 16 frm | 42.2 | 3.96 |
 | LLaVA-1.6 | 16 frm | 39.3 | 3.23 |
@@ -63,12 +69,11 @@ We do not own the copyright of any raw video files. Currently, we provide video 
 
 If the original authors of the related works still believe that the videos should be removed, please contact mlvubenchmark@gmail.com or directly raise an issue.
 
-
 ## MLVU Benchmark
 > Before you access our dataset, we kindly ask you to thoroughly read and understand the license outlined above. If you cannot agree to these terms, we request that you refrain from downloading our video data.
 
 
-The annotation file is readily accessible [here](url). For the raw videos, you can access them via this [<u>🤗 HF Link</u>](https://huggingface.co/datasets/MLVU/MVLU).
+The annotation file is readily accessible [here](https://github.com/FlagOpen/FlagEmbedding/tree/master/MLVU/data). For the raw videos, you can access them via this [<u>🤗 HF Link</u>](https://huggingface.co/datasets/MLVU/MVLU).
 
 
 MLVU encompasses nine distinct tasks, which include multiple-choice tasks as well as free-form generation tasks. These tasks are specifically tailored for long-form video understanding, and are classified into three categories: holistic understanding, single detail understanding, and multi-detail understanding. Examples of the tasks are displayed below.
@@ -78,7 +83,7 @@ MLVU encompasses nine distinct tasks, which include multiple-choice tasks as wel
 
 
 ## Evaluation
-Please refer to our eval folder for more details.
+Please refer to our [evaluation](https://github.com/FlagOpen/FlagEmbedding/tree/master/MLVU/evaluation) folder for more details.
 
 
 
@@ -99,13 +104,11 @@ If even retaining the frame set is not allowed, we will still keep the relevant 
 If you find this repository useful, please consider giving a star :star: and citation
 
 ```
-@misc{MLVU,
-      title={MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding}, 
-      author={Junjie Zhou and Yan Shu and Bo Zhao and Boya Wu and Shitao Xiao and Xi Yang and Yongping Xiong and Bo Zhang and Tiejun Huang and Zheng Liu},
-      year={2024},
-      eprint={2406.04264},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{MLVU,
+  title={MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding},
+  author={Zhou, Junjie and Shu, Yan and Zhao, Bo and Wu, Boya and Xiao, Shitao and Yang, Xi and Xiong, Yongping and Zhang, Bo and Huang, Tiejun and Liu, Zheng},
+  journal={arXiv preprint arXiv:2406.04264},
+  year={2024}
 }
 ```
 
