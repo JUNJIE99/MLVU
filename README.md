@@ -16,6 +16,14 @@ This repo contains the annotation data and evaluation code for the paper "[MLVU:
 - 🥳 6/7/2024: We have released the MLVU [Benchmark](https://huggingface.co/datasets/MLVU/MVLU) and [Paper](https://arxiv.org/abs/2406.04264)! :fire:
 - 🏠 6/19/2024: For better maintenance and updates of MLVU, we have migrated MLVU to this new repository. We will continue to update and maintain MLVU here. If you have any questions, feel free to raise an issue. :fire:
 
+## License
+Our dataset is under the CC-BY-NC-SA-4.0 license.
+
+:warning: If you need to access and use our dataset, you must understand and agree: **This dataset is for research purposes only and cannot be used for any commercial or other purposes. The user assumes all effects arising from any other use and dissemination.**
+
+We do not own the copyright of any raw video files. Currently, we provide video access to researchers under the condition of acknowledging the above license. For the video data used, we respect and acknowledge any copyrights of the video authors. Therefore, for the movies, TV series, documentaries, and cartoons used in the dataset, we have reduced the resolution, clipped the length, adjusted dimensions, etc. of the original videos to minimize the impact on the rights of the original works. 
+
+If the original authors of the related works still believe that the videos should be removed, please contact mlvubenchmark@gmail.com or directly raise an issue.
 
 
 ## Introduction
