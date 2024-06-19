@@ -4,7 +4,7 @@ import os
 
 
 
-path="/share/junjie/shuyan/open_evaluation/output_dir/llamavidnew_subplot_all"
+path="=/output_dir/llamavidnew_subplot_all"
 def extract_scores(text):
     # Define the keys to locate in the text
     keys = ["score_accuracy", "score_relevance"]

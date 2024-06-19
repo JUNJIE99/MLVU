@@ -3,7 +3,7 @@ import re
 import os
 
 
-path="/share/junjie/shuyan/open_evaluation/output_dir/videollama7b_summary_all"
+path="/output_dir/videollama7b_summary_all"
 def extract_scores(text):
     # Define the keys to locate in the text
     keys = ["score_completeness", "score_reliability"]
