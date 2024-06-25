@@ -45,6 +45,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 | GPT-4 Turbo | 16 frm | 49.2 | 5.35 |
 | VideoChat2_HD | 16 frm | 47.9 | 3.99 |
 | Video-LLaVA | 8 frm | 47.3 | 3.84 |
+| ShareGPT4Video | 16 frm | 46.4 | 3.77 |
 | VideoChat2-Vicuna | 16 frm | 44.5 | 3.81 |
 | MiniGPT4-Video | 90 frm | 44.5 | 3.36 |
 | Qwen-VL-Max | 16 frm | 42.2 | 3.96 |
