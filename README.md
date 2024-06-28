@@ -40,7 +40,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 | Model | Input | M-Avg | G-Avg |
 | --- | --- | --- | --- |
 | Full mark | - | 100 | 10 |
-| GPT-4o | 0.5 fps | 64.6 | 5.80 |
+| [GPT-4o](https://openai.com/index/hello-gpt-4o/) | 0.5 fps | 64.6 | 5.80 |
 | InternVL-1.5 | 16 frm | 50.4 | 4.02 |
 | GPT-4 Turbo | 16 frm | 49.2 | 5.35 |
 | VideoLLaMA2-Chat | 16 frm | 48.5 | 3.99 |
