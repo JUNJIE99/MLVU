@@ -7,6 +7,18 @@
         <img alt="Build" src="https://img.shields.io/badge/🤗 Dataset-MLVU Benchmark-yellow">
     </a>
 </p>
+<p align="center">
+    <a href="https://mp.weixin.qq.com/s/7gjROX0T1MFApRB0WkDzMg">
+        <img alt="Build" src="https://img.shields.io/badge/BAAI-red">
+    </a>
+    <a href="https://mp.weixin.qq.com/s/Z6lU37EhpJHbJHLfUCDMRg">
+        <img alt="Build" src="https://img.shields.io/badge/PaperWeekly-red">
+    </a>
+    <a href="https://mp.weixin.qq.com/s/-HUORRvhGVDdfPcKReXsCg">
+        <img alt="Build" src="https://img.shields.io/badge/量子位-red">
+    </a>
+</p>
+
 This repo contains the annotation data and evaluation code for the paper "[MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding](https://arxiv.org/abs/2406.04264)".
 
 
