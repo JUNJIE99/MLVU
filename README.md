@@ -53,7 +53,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 | Full mark | - | 100 | 10 |
 | [GPT-4o](https://openai.com/index/hello-gpt-4o/) | 0.5&nbsp;fps | 64.6 | 5.80 |
 | [Video-CCAM](https://github.com/QQ-MM/Video-CCAM) | 96 frm | 60.2 | 4.11 |
-| [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) | 256 frm | 56.3 | 4.33 |
+| [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) | 256&nbsp;frm | 56.3 | 4.33 |
 | [VILA-1.5](https://github.com/NVlabs/VILA) | 8 frm | 56.0 | 4.20 |
 | [InternVL-1.5](https://github.com/OpenGVLab/InternVL) | 16 frm | 50.4 | 4.02 |
 | [GPT-4 Turbo](https://openai.com/index/gpt-4v-system-card/) | 16 frm | 49.2 | 5.35 |
@@ -74,7 +74,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 | [VideoChat](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat) | 16 frm | 29.2 | 3.66 |
 | [Movie-LLM](https://github.com/Deaddawn/MovieLLM-code) | 1 fps | 26.1 | 3.94 |
 | [mPLUG-Owl-V](https://github.com/X-PLUG/mPLUG-Owl) | 16 frm | 25.9 | 3.84 |
-| [MovieChat](https://github.com/rese1f/MovieChat) | 2048 frm | 25.8 | 2.78 |
+| [MovieChat](https://github.com/rese1f/MovieChat) | 2048&nbsp;frm | 25.8 | 2.78 |
 | [Otter-V](https://github.com/Luodian/Otter) | 16 frm | 24.4 | 3.31 |
 | [Otter-I](https://github.com/Luodian/Otter) | 16 frm | 23.3 | 3.15 |
 
