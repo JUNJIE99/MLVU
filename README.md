@@ -47,14 +47,12 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 
 
 
-## :trophy: Mini-Leaderboard
-
 ## :trophy: Leaderboard For MLVU benchmark (MLVU-Dev)
 This table is sorted by M-AVG in descending order.
 | Model | Input | TR | AR | NQA | ER | PQA | AO | AC | M-Avg | SSC | VS | G-Avg |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Full mark | - | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 10 | 10 | 10 |
-| [GPT-4o](https://openai.com/index/hello-gpt-4o/) | 0.5 fps | 87.3 | 74.6 | 64.8 | 57.1 | 65.1 | 56.7 | 46.3 | 64.6 | 6.69 | 4.90 | 5.80 |
+| [GPT-4o](https://openai.com/index/hello-gpt-4o/) | 0.5&nbsp;fps | 87.3 | 74.6 | 64.8 | 57.1 | 65.1 | 56.7 | 46.3 | 64.6 | 6.69 | 4.90 | 5.80 |
 | [Video-CCAM](https://github.com/QQ-MM/Video-CCAM) | 96 frm | - | - | - | - | - | - | - | 60.2 | - | - | 4.11 |
 | [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) | 256 frm | 83.3 | 58.5 | 69.3 | 50.0 | 67.2 | 38.6 | 27.2 | 56.3 | 5.26 | 3.39 | 4.33 |
 | [VILA-1.5](https://github.com/NVlabs/VILA) | 8 frm | 85.2 | 63.0 | 56.7 | 54.8 | 63.5 | 42.5 | 26.2 | 56.0 | 5.27 | 3.12 | 4.20 |
