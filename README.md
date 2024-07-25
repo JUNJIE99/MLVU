@@ -79,7 +79,7 @@ This table is sorted by M-AVG in descending order.
 | [mPLUG-Owl-V](https://github.com/X-PLUG/mPLUG-Owl) | 16 frm | 28.0 | 25.0 | 24.5 | 31.8 | 27.3 | 21.2 | 23.3 | 25.9 | 5.31 | 2.36 | 3.84 |
 | [MovieChat](https://github.com/rese1f/MovieChat) | 2048 frm | 29.5| 25.0 | 24.2 | 24.7 | 25.8 | 28.6 | 22.8 | 25.8 | 3.23 | 2.33 | 2.78 |
 | [Otter-V](https://github.com/Luodian/Otter) | 16 frm | 24.6 | 26.0 | 28.2 | 27.6 | 22.3 | 15.1 | 26.7 | 24.4 | 4.23 | 2.38 | 3.31 |
-| [Otter-I](https://github.com/Luodian/Otter) | 16 frm | 25.0 | 25.0 | 25.1 | 25.0 |
+| [Otter-I](https://github.com/Luodian/Otter) | 16 frm | 25.0 | 25.0 | 25.1 | 25.0 |25.0 | 24.9 | 13.1 | 25.2 | 23.3 |  4.12 | 2.18 | 3.15
 
 
 ## :trophy: MLVU-Test Leaderboard
