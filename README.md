@@ -54,7 +54,7 @@ This table is sorted by M-AVG in descending order.
 | Full mark | - | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 10 | 10 | 10 |
 | [GPT-4o](https://openai.com/index/hello-gpt-4o/) | 0.5&nbsp;fps | 87.3 | 74.6 | 64.8 | 57.1 | 65.1 | 56.7 | 46.3 | 64.6 | 6.69 | 4.90 | 5.80 |
 | [Video-CCAM](https://github.com/QQ-MM/Video-CCAM) | 96 frm | - | - | - | - | - | - | - | 60.2 | - | - | 4.11 |
-| [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) | 256 frm | 83.3 | 58.5 | 69.3 | 50.0 | 67.2 | 38.6 | 27.2 | 56.3 | 5.26 | 3.39 | 4.33 |
+| [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) | 256&nbsp;frm | 83.3 | 58.5 | 69.3 | 50.0 | 67.2 | 38.6 | 27.2 | 56.3 | 5.26 | 3.39 | 4.33 |
 | [VILA-1.5](https://github.com/NVlabs/VILA) | 8 frm | 85.2 | 63.0 | 56.7 | 54.8 | 63.5 | 42.5 | 26.2 | 56.0 | 5.27 | 3.12 | 4.20 |
 | [InternVL-1.5](https://github.com/OpenGVLab/InternVL) | 16 frm | 78.8 | 67.0 | 52.7 | 43.5 | 54.4 | 32.8 | 23.8 | 50.4 | 4.88 | 3.16 | 4.02 |
 | [GPT-4 Turbo](https://openai.com/index/gpt-4v-system-card/) | 16 frm | 79.5 | 68.2 | 45.9 | 47.4 | 60.6 | 26.5 | 16.1 | 49.2 | 6.21 | 4.49 | 5.35 |
@@ -75,7 +75,7 @@ This table is sorted by M-AVG in descending order.
 | [VideoChat](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat) | 16 frm | 33.0 | 32.0 | 27.0 | 32.1 | 27.6 | 24.3 | 28.6 | 29.2 | 5.01 | 2.31 | 3.66 |
 | [Movie-LLM](https://github.com/Deaddawn/MovieLLM-code) | 1 fps | 30.0 | 29.0 | 29.6 | 24.7 | 24.1 | 20.5 | 24.8 | 26.1 | 5.00 | 2.88 | 3.94 |
 | [mPLUG-Owl-V](https://github.com/X-PLUG/mPLUG-Owl) | 16 frm | 28.0 | 25.0 | 24.5 | 31.8 | 27.3 | 21.2 | 23.3 | 25.9 | 5.31 | 2.36 | 3.84 |
-| [MovieChat](https://github.com/rese1f/MovieChat) | 2048 frm | 29.5| 25.0 | 24.2 | 24.7 | 25.8 | 28.6 | 22.8 | 25.8 | 3.23 | 2.33 | 2.78 |
+| [MovieChat](https://github.com/rese1f/MovieChat) | 2048&nbsp;frm | 29.5| 25.0 | 24.2 | 24.7 | 25.8 | 28.6 | 22.8 | 25.8 | 3.23 | 2.33 | 2.78 |
 | [Otter-V](https://github.com/Luodian/Otter) | 16 frm | 24.6 | 26.0 | 28.2 | 27.6 | 22.3 | 15.1 | 26.7 | 24.4 | 4.23 | 2.38 | 3.31 |
 | [Otter-I](https://github.com/Luodian/Otter) | 16 frm | 25.0 | 25.0 | 25.1 | 25.0  | 24.9 | 13.1 | 25.2 | 23.3 |  4.12 | 2.18 | 3.15 |
 
