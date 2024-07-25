@@ -80,7 +80,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 | [Otter-I](https://github.com/Luodian/Otter) | 16 frm | 23.3 | 3.15 |
 
 
-## :trophy: Leaderboard for MLVU Test
+## :trophy: MLVU-Test Leaderboard
 This table is sorted by M-AVG in descending order.
 |            | Input | TR   | AR   | NQA  | ER   | PQA  | SQA  | AO   | AC   | TQA  | M-AVG | SSC  | VS   | G-Avg |
 |------------|-------|------|------|------|------|------|------|------|------|------|-------|------|------|-------|
