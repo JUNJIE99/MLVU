@@ -83,7 +83,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 
 |            | Input | TR   | AR   | NQA  | ER   | PQA  | SQA  | AO   | AC   | TQA  | M-AVG | SSC  | VS   | G-Avg |
 |------------|-------|------|------|------|------|------|------|------|------|------|-------|------|------|-------|
-| [GPT-4o](https://openai.com/index/hello-gpt-4o/)     | 0.5 fps| 83.7 | 68.8 | 42.9 | 47.8 | 57.1 | 63.6 | 46.2 | 35.0 | 48.7 | 54.9  | 6.80 | 4.94 | 5.87  |
+| [GPT-4o](https://openai.com/index/hello-gpt-4o/)     | 0.5&nbsp;fps| 83.7 | 68.8 | 42.9 | 47.8 | 57.1 | 63.6 | 46.2 | 35.0 | 48.7 | 54.9  | 6.80 | 4.94 | 5.87  |
 | [GPT-4 Turbo](https://openai.com/index/gpt-4v-system-card/)    | 16 frm| 85.7 | 61.5 | 40.0 | 41.5 | 48.0 | 41.7 | 22.9 | 6.7  | 41.9 | 43.3  | 4.95 | 4.38 | 4.67  |
 | [VILA-1.5](https://github.com/NVlabs/VILA)        | 8 frm| 84.6 | 59.0 | 35.0 | 32.1 | 50.0 | 47.2 | 31.4 | 10.0 | 34.9 | 42.7  | 5.38 | 2.35 | 3.87  |
 | [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA)    | 256 frm| 81.3 | 41.0 | 46.7 | 39.6 | 46.0 | 44.4 | 17.1 | 23.3 | 30.2 | 41.1  | 4.92 | 2.90 | 3.91  |
