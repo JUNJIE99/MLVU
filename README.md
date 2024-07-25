@@ -26,6 +26,7 @@ This repo contains the annotation data and evaluation code for the paper "[MLVU:
 ## :bell: News:
 - 🥳 6/7/2024: We have released the MLVU [Benchmark](https://huggingface.co/datasets/MLVU/MVLU) and [Paper](https://arxiv.org/abs/2406.04264)! :fire:
 - 🏠 6/19/2024: For better maintenance and updates of MLVU, we have migrated MLVU to this new repository. We will continue to update and maintain MLVU here. If you have any questions, feel free to raise an issue. :fire:
+- :trophy: 7/25/2024: We have released the MLVU-Test leaderboard and incorporated evaluation results for several recently launched models, such as [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA), [VILA](https://github.com/NVlabs/VILA), [ShareGPT4-Video](https://github.com/ShareGPT4Omni/ShareGPT4Video), etc. MLVU-Test has increased the number of candidates in multiple-choice questions to six. The data and tasks of the MLVU-Test set will be made publicly available in the coming days. The ground truth of the Test set will not be disclosed, but this will allow everyone to conduct online evaluations.
 
 ## License
 Our dataset is under the CC-BY-NC-SA-4.0 license.
@@ -79,7 +80,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 | [Otter-I](https://github.com/Luodian/Otter) | 16 frm | 23.3 | 3.15 |
 
 
-## :trophy: Mini-Leaderboard for MLVU Test
+## :trophy: Leaderboard for MLVU Test
 This table is sorted by M-AVG in descending order.
 |            | Input | TR   | AR   | NQA  | ER   | PQA  | SQA  | AO   | AC   | TQA  | M-AVG | SSC  | VS   | G-Avg |
 |------------|-------|------|------|------|------|------|------|------|------|------|-------|------|------|-------|
