@@ -64,6 +64,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 | [VideoChat2-Vicuna](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2) | 16 frm | 44.5 | 3.81 |
 | [MiniGPT4-Video](https://github.com/Vision-CAIR/MiniGPT4-video) | 90 frm | 44.5 | 3.36 |
 | [Qwen-VL-Max](https://github.com/QwenLM/Qwen) | 16 frm | 42.2 | 3.96 |
+| [VTimeLLM]((https://github.com/huangb23/VTimeLLM) | 100 frm | 41.9 | 3.94 |
 | [LLaVA-1.6](https://github.com/haotian-liu/LLaVA) | 16 frm | 39.3 | 3.23 |
 | [Claude-3-Opus](https://claude.ai/login?returnTo=%2F%3F) | 16 frm | 36.5 | 3.39 |
 | [MA-LMM](https://github.com/boheumd/MA-LMM) | 1000 frm | 36.4 | 3.46 |
