@@ -142,7 +142,7 @@ MLVU encompasses nine distinct tasks, which include multiple-choice tasks as wel
 
 
 ## Evaluation
-Please refer to our [evaluation](https://github.com/FlagOpen/FlagEmbedding/tree/master/MLVU/evaluation) folder for more details.
+Please refer to our [evaluation](https://github.com/JUNJIE99/MLVU/tree/main/evaluation) and [evaluation_test](https://github.com/JUNJIE99/MLVU/tree/main/Evaluation_Test) folder for more details.
 
 
 
