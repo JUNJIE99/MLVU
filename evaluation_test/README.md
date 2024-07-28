@@ -7,7 +7,7 @@ We provide detailed evaluation methods for MLVU Test, including Multiple-choice 
 ```
 python test_bench.py 
 ```
-You can provide all the outputs in one file in the following format like [test_res.json](https://github.com/JUNJIE99/MLVU/blob/main/Evaluation_Test/test_res.json):
+You can get all the outputs in one file in the following format like [test_res.json](https://github.com/JUNJIE99/MLVU/blob/main/evaluation_test/test_res.json):
 ```
  {
         "question_id": "AR_0",
@@ -19,4 +19,4 @@ You can provide all the outputs in one file in the following format like [test_r
 - Step 2 Submit your json files to the MLVU online evaluation system to get the final results.
   
 #### Generation testing
-Please see the detail steps provided in the eval folder.
+Please see the detail steps provided in the [eval folder](https://github.com/JUNJIE99/MLVU/tree/main/evaluation).
