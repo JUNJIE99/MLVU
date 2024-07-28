@@ -4,7 +4,10 @@
             <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2406.04264-B31B1B.svg">
     </a>
     <a href="https://huggingface.co/datasets/MLVU/MVLU">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Dataset-MLVU Benchmark-yellow">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Dataset-MLVU Benchmark (Dev)-yellow">
+    </a>
+    <a href="https://huggingface.co/datasets/MLVU/MLVU_Test">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Dataset-MLVU Benchmark (Test)-yellow">
     </a>
 </p>
 <p align="center">
@@ -24,7 +27,9 @@ This repo contains the annotation data and evaluation code for the paper "[MLVU:
 
 
 ## :bell: News:
-- :trophy: 7/25/2024: We have released the [MLVU-Test leaderboard](https://github.com/JUNJIE99/MLVU?tab=readme-ov-file#trophy-mlvu-test-leaderboard) and incorporated evaluation results for several recently launched models, such as [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA), [VILA](https://github.com/NVlabs/VILA), [ShareGPT4-Video](https://github.com/ShareGPT4Omni/ShareGPT4Video), etc. MLVU-Test has increased the number of candidates in multiple-choice questions to six. The data and tasks of the MLVU-Test set will be made publicly available in the coming days. The ground truth of the Test set will not be disclosed, but this will allow everyone to conduct online evaluations.
+- 🎉 7/28/2024: The **MLVU-Dev** set has now been integrated into [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)! You can now conveniently evaluate the multiple-choice questions (MLVU<sub>M</sub>) of the[ MLVU-Dev set](https://huggingface.co/datasets/MLVU/MVLU) with a single click using lmms-eval. Thanks to the lmms-eval!
+- 🔥 7/28/2024: The data for the **MLVU-Test set** has been released ([🤗 Link](https://huggingface.co/datasets/MLVU/MLVU_Test))! The test set includes 11 different tasks, featuring our newly added Sports Question Answering (SQA, single-detail LVU) and Tutorial Question Answering (TQA, multi-detail LVU). The MLVU-Test has expanded the number of options in multiple-choice questions to six. While the ground truth of the MLVU-Test will remain undisclosed, everyone will be able to evaluate online (the online website will be coming soon!).
+- :trophy: 7/25/2024: We have released the [MLVU-Test leaderboard](https://github.com/JUNJIE99/MLVU?tab=readme-ov-file#trophy-mlvu-test-leaderboard) and incorporated evaluation results for several recently launched models, such as [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA), [VILA](https://github.com/NVlabs/VILA), [ShareGPT4-Video](https://github.com/ShareGPT4Omni/ShareGPT4Video), etc.
 - 🏠 6/19/2024: For better maintenance and updates of MLVU, we have migrated MLVU to this new repository. We will continue to update and maintain MLVU here. If you have any questions, feel free to raise an issue. :fire:
 - 🥳 6/7/2024: We have released the MLVU [Benchmark](https://huggingface.co/datasets/MLVU/MVLU) and [Paper](https://arxiv.org/abs/2406.04264)! :fire:
 
