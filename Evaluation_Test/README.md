@@ -1,14 +1,23 @@
-## Evaluation for MLVU
+## Evaluation for MLVU Test
 
-We provide detailed evaluation methods for MLVU, including Multiple-choice tasks and generation tasks.
+We provide detailed evaluation methods for MLVU Test, including Multiple-choice tasks and Generation tasks.
 
 ### Benchmark MLVU on your Model
 Firstly, If you want to benchmark MLVU in your models, you can refer to our template test code as follows:
 #### Multiple-Choice testing
+- Step 1 Get the inference results by running the following scripts (Take Video-LLaVA as an example).
 ```
-python multiple_choice_evaluation/choice_bench.py 
+python test_bench.py 
 ```
-You must load your model into this template and evaluate the multiple-choice performance online. 
+You can provide all the outputs in one file in the following format:
+```
+ {
+        "question_id": "AR_0",
+        "question_type": "anomaly_reco",
+        "option": "B"
+}
+...
+```
 #### Generation testing
 - Step 1 Get the inference results of Sub-Scene Captioning and Video Summary.
 ```
