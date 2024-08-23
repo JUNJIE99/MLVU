@@ -16,7 +16,7 @@ You can get all the outputs in one file in the following format like [test_res.j
 }
 ...
 ```
-- Step 2: Submit your json files to the MLVU online evaluation system to get the final results.
+- Step 2: Submit your json files to the [MLVU online evaluation system](http://analysis.a1.luyouxia.net:23226/) to get the final results.
   
 #### Generation testing
 Please see the detail steps provided in the [eval folder](https://github.com/JUNJIE99/MLVU/tree/main/evaluation).
