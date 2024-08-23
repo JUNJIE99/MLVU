@@ -53,37 +53,37 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 
 
 ## :trophy: Mini-Leaderboard
-| Model | Input | M-Avg | G-Avg |
-| --- | --- | --- | --- |
-| Full mark | - | 100 | 10 |
-| [LLaVA-OneVision](https://github.com/LLaVA-VL/LLaVA-NeXT/tree/main) | 32 frm | 66.4 | -- |
-| [GPT-4o](https://openai.com/index/hello-gpt-4o/) | 0.5&nbsp;fps | 64.6 | 5.80 |
-| [Video-CCAM](https://github.com/QQ-MM/Video-CCAM) | 96 frm | 63.1 | 4.01 |
-| [VILA-1.5](https://github.com/NVlabs/VILA) | 14 frm | 56.7 | 4.31 |
-| [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) | 256&nbsp;frm | 56.3 | 4.33 |
-| [InternVL-1.5](https://github.com/OpenGVLab/InternVL) | 16 frm | 50.4 | 4.02 |
-| [GPT-4 Turbo](https://openai.com/index/gpt-4v-system-card/) | 16 frm | 49.2 | 5.35 |
-| [VideoLLaMA2-Chat](https://github.com/DAMO-NLP-SG/VideoLLaMA2) | 16 frm | 48.5 | 3.99 |
-| [VideoChat2_HD](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2) | 16 frm | 47.9 | 3.99 |
-| [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) | 8 frm | 47.3 | 3.84 |
-| [ShareGPT4Video](https://github.com/ShareGPT4Omni/ShareGPT4Video) | 16 frm | 46.4 | 3.77 |
-| [VideoChat2-Vicuna](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2) | 16 frm | 44.5 | 3.81 |
-| [MiniGPT4-Video](https://github.com/Vision-CAIR/MiniGPT4-video) | 90 frm | 44.5 | 3.36 |
-| [Qwen-VL-Max](https://github.com/QwenLM/Qwen) | 16 frm | 42.2 | 3.96 |
-| [VTimeLLM](https://github.com/huangb23/VTimeLLM) | 100 frm | 41.9 | 3.94 |
-| [LLaVA-1.6](https://github.com/haotian-liu/LLaVA) | 16 frm | 39.3 | 3.23 |
-| [Claude-3-Opus](https://claude.ai/login?returnTo=%2F%3F) | 16 frm | 36.5 | 3.39 |
-| [MA-LMM](https://github.com/boheumd/MA-LMM) | 1000 frm | 36.4 | 3.46 |
-| [Video-LLaMA-2](https://github.com/DAMO-NLP-SG/Video-LLaMA) | 16 frm | 35.5 | 3.78 |
-| [LLaMA-VID](https://github.com/dvlab-research/LLaMA-VID) | 1 fps | 33.2 | 4.22 |
-| [Video-ChatGPT](https://github.com/mbzuai-oryx/Video-ChatGPT) | 100 frm | 31.3 | 3.90 |
-| [TimeChat](https://github.com/RenShuhuai-Andy/TimeChat) | 96 frm | 30.9 | 3.42 |
-| [VideoChat](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat) | 16 frm | 29.2 | 3.66 |
-| [Movie-LLM](https://github.com/Deaddawn/MovieLLM-code) | 1 fps | 26.1 | 3.94 |
-| [mPLUG-Owl-V](https://github.com/X-PLUG/mPLUG-Owl) | 16 frm | 25.9 | 3.84 |
-| [MovieChat](https://github.com/rese1f/MovieChat) | 2048&nbsp;frm | 25.8 | 2.78 |
-| [Otter-V](https://github.com/Luodian/Otter) | 16 frm | 24.4 | 3.31 |
-| [Otter-I](https://github.com/Luodian/Otter) | 16 frm | 23.3 | 3.15 |
+| Model | Input | Size | M-Avg | G-Avg |
+| --- | --- | --- | --- | --- |
+| Full mark | - | - | 100 | 10 |
+| [LLaVA-OneVision](https://github.com/LLaVA-VL/LLaVA-NeXT/tree/main) | 32 frm | 72B | 66.4 | -- |
+| [GPT-4o](https://openai.com/index/hello-gpt-4o/) | 0.5&nbsp;fps | - | 64.6 | 5.80 |
+| [Video-CCAM](https://github.com/QQ-MM/Video-CCAM) | 96 frm | 14B | 63.1 | 4.01 |
+| [VILA-1.5](https://github.com/NVlabs/VILA) | 14 frm | 40B | 56.7 | 4.31 |
+| [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) | 256&nbsp;frm | 7B | 56.3 | 4.33 |
+| [InternVL-1.5](https://github.com/OpenGVLab/InternVL) | 16 frm | 26B | 50.4 | 4.02 |
+| [GPT-4 Turbo](https://openai.com/index/gpt-4v-system-card/) | 16 frm | - | 49.2 | 5.35 |
+| [VideoLLaMA2-Chat](https://github.com/DAMO-NLP-SG/VideoLLaMA2) | 16 frm | 7B | 48.5 | 3.99 |
+| [VideoChat2_HD](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2) | 16 frm | 7B | 47.9 | 3.99 |
+| [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) | 8 frm | 7B | 47.3 | 3.84 |
+| [ShareGPT4Video](https://github.com/ShareGPT4Omni/ShareGPT4Video) | 16 frm | 8B | 46.4 | 3.77 |
+| [VideoChat2-Vicuna](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2) | 16 frm | 7B | 44.5 | 3.81 |
+| [MiniGPT4-Video](https://github.com/Vision-CAIR/MiniGPT4-video) | 90 frm | 7B | 44.5 | 3.36 |
+| [Qwen-VL-Max](https://github.com/QwenLM/Qwen) | 16 frm | - | 42.2 | 3.96 |
+| [VTimeLLM](https://github.com/huangb23/VTimeLLM) | 100 frm | 7B | 41.9 | 3.94 |
+| [LLaVA-1.6](https://github.com/haotian-liu/LLaVA) | 16 frm | 7B | 39.3 | 3.23 |
+| [Claude-3-Opus](https://claude.ai/login?returnTo=%2F%3F) | 16 frm | - | 36.5 | 3.39 |
+| [MA-LMM](https://github.com/boheumd/MA-LMM) | 1000 frm | 7B | 36.4 | 3.46 |
+| [Video-LLaMA-2](https://github.com/DAMO-NLP-SG/Video-LLaMA) | 16 frm | 13B | 35.5 | 3.78 |
+| [LLaMA-VID](https://github.com/dvlab-research/LLaMA-VID) | 1 fps | 7B | 33.2 | 4.22 |
+| [Video-ChatGPT](https://github.com/mbzuai-oryx/Video-ChatGPT) | 100 frm | 7B | 31.3 | 3.90 |
+| [TimeChat](https://github.com/RenShuhuai-Andy/TimeChat) | 96 frm | 7B | 30.9 | 3.42 |
+| [VideoChat](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat) | 16 frm | 7B | 29.2 | 3.66 |
+| [Movie-LLM](https://github.com/Deaddawn/MovieLLM-code) | 1 fps | 7B | 26.1 | 3.94 |
+| [mPLUG-Owl-V](https://github.com/X-PLUG/mPLUG-Owl) | 16 frm | 7B | 25.9 | 3.84 |
+| [MovieChat](https://github.com/rese1f/MovieChat) | 2048&nbsp;frm | 7B | 25.8 | 2.78 |
+| [Otter-V](https://github.com/Luodian/Otter) | 16 frm | 7B | 24.4 | 3.31 |
+| [Otter-I](https://github.com/Luodian/Otter) | 16 frm | 7B | 23.3 | 3.15 |
 
 
 
