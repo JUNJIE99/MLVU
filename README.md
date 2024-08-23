@@ -27,7 +27,7 @@ This repo contains the annotation data and evaluation code for the paper "[MLVU:
 
 
 ## :bell: News:
-- 🆕 8/23/2024: The online website for the **MLVU-Test set evaluation** has been released ([Link](http://analysis.a1.luyouxia.net:23226/)), welcome to submit your model and result!
+- 🚀 8/23/2024: The online website for the **MLVU-Test set evaluation** has been released ([Link](http://analysis.a1.luyouxia.net:23226/)), welcome to submit your model and result!
 - 🆕 7/28/2024: The data for the **MLVU-Test set** has been released ([🤗 Link](https://huggingface.co/datasets/MLVU/MLVU_Test))! The test set includes 11 different tasks, featuring our newly added Sports Question Answering (SQA, single-detail LVU) and Tutorial Question Answering (TQA, multi-detail LVU). The MLVU-Test has **expanded the number of options in multiple-choice questions to six**. While the ground truth of the MLVU-Test will remain undisclosed, everyone will be able to evaluate online (the online website will be coming soon!). 🔥
 - 🎉 7/28/2024: The **MLVU-Dev set** has now been integrated into [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)! You can now conveniently evaluate the multiple-choice questions (MLVU<sub>M</sub>) of the [MLVU-Dev set](https://huggingface.co/datasets/MLVU/MVLU) with a single click using lmms-eval. Thanks to the lmms-eval team! 🔥
 - :trophy: 7/25/2024: We have released the [MLVU-Test leaderboard](https://github.com/JUNJIE99/MLVU?tab=readme-ov-file#trophy-mlvu-test-leaderboard) and incorporated evaluation results for several recently launched models, such as [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA), [VILA](https://github.com/NVlabs/VILA), [ShareGPT4-Video](https://github.com/ShareGPT4Omni/ShareGPT4Video), etc. 🔥
