@@ -95,7 +95,7 @@ This table is sorted by M-AVG in descending order.
 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)     | 0.5&nbsp;fps| 83.7 | 68.8 | 42.9 | 47.8 | 57.1 | 63.6 | 46.2 | 35.0 | 48.7 | 54.9  | 6.80 | 4.94 | 5.87  |
 | [VILA-1.5](https://github.com/NVlabs/VILA)        | 14 frm| 84.7 | 56.4 | 38.3 | 35.8 | 62.0 | 38.8 | 34.3 | 11.7 | 34.9 | 44.2  | 5.11 | 2.53 | 3.82  |
 | [GPT-4 Turbo](https://openai.com/index/gpt-4v-system-card/)    | 16 frm| 85.7 | 61.5 | 40.0 | 41.5 | 48.0 | 41.7 | 22.9 | 6.7  | 41.9 | 43.3  | 4.95 | 4.38 | 4.67  |
-| [Video-CCAM](https://github.com/QQ-MM/Video-CCAM) | 96 frm | 14B | 79.1 | 38.5 | 45.0 | 52.8 | 56.0 | 33.3 | 24.3 | 26.7 | 30.2 | 42.9 | -- | -- | -- |
+| [Video-CCAM](https://github.com/QQ-MM/Video-CCAM) | 96 frm | 79.1 | 38.5 | 45.0 | 52.8 | 56.0 | 33.3 | 24.3 | 26.7 | 30.2 | 42.9 | -- | -- | -- |
 | [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA)    | 256 frm| 81.3 | 41.0 | 46.7 | 39.6 | 46.0 | 44.4 | 17.1 | 23.3 | 30.2 | 41.1  | 4.92 | 2.90 | 3.91  |
 | [InternVL-1.5](https://github.com/OpenGVLab/InternVL)   | 16 frm| 80.2 | 51.3 | 40.0 | 24.5 | 42.0 | 30.6 | 14.3 | 13.3 | 39.5 | 37.3  | 5.18 | 2.73 | 3.96  |
 | [VideoChat2_HD](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2)| 16 frm| 74.7 | 43.6 | 35.0 | 34.0 | 30.0 | 30.6 | 21.4 | 23.3 | 23.3 | 35.1 | 5.14 | 2.83 | 3.99  |
