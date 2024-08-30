@@ -90,8 +90,8 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 ## :trophy: MLVU-Test Leaderboard
 This table is sorted by M-AVG in descending order.
 |            | Input |  Size |  TR   | AR   | NQA  | ER   | PQA  | SQA  | AO   | AC   | TQA  | M-AVG | SSC  | VS   | G-Avg |
-|------------|-------|------|------|------|------|------|------|------|------|------|-------|------|------|-------||-------|
-| [GPT-4o](https://openai.com/index/hello-gpt-4o/)     | 0.5&nbsp;fps| -- | 83.7 | 68.8 | 42.9 | 47.8 | 57.1 | 63.6 | 46.2 | 35.0 | 48.7 | 54.9  | 6.80 | 4.94 | 5.87  |
+|------------|-------|------|------|------|------|------|------|------|------|------|-------|------|------|-------|
+| [GPT-4o](https://openai.com/index/hello-gpt-4o/)     | 0.5 fps| -- | 83.7 | 68.8 | 42.9 | 47.8 | 57.1 | 63.6 | 46.2 | 35.0 | 48.7 | 54.9  | 6.80 | 4.94 | 5.87  |
 | [VideoLLaMA2](https://github.com/DAMO-NLP-SG/VideoLLaMA2) | 16 frm | 72B | 80.2 | 53.8 | 36.7 | 54.7 | 54.0 | 38.9 | 42.9 | 16.7 | 32.6 | 45.6 | -- | -- | -- |
 | [VILA-1.5](https://github.com/NVlabs/VILA)        | 14 frm| 40B | 84.7 | 56.4 | 38.3 | 35.8 | 62.0 | 38.8 | 34.3 | 11.7 | 34.9 | 44.2  | 5.11 | 2.53 | 3.82  |
 | [GPT-4 Turbo](https://openai.com/index/gpt-4v-system-card/)    | 16 frm| --| 85.7 | 61.5 | 40.0 | 41.5 | 48.0 | 41.7 | 22.9 | 6.7  | 41.9 | 43.3  | 4.95 | 4.38 | 4.67  |
@@ -114,9 +114,10 @@ This table is sorted by M-AVG in descending order.
 | [Movie-LLM](https://github.com/Deaddawn/MovieLLM-code)   | 1 fps| 7B| 27.5 | 25.6 | 10.0 | 11.3 | 16.0 | 16.7 | 20.0 | 21.7 | 23.3 | 19.1  | 4.93 | 2.10 | 3.52  |
 | [Otter-I](https://github.com/Luodian/Otter)    | 16 frm| 7B | 17.6 | 17.9 | 16.7 | 17.0 | 18.0 | 16.7 | 15.7 | 16.7 | 14.0 | 16.7  | 3.90 | 2.03 | 2.97  |
 | [Otter-V](https://github.com/Luodian/Otter)    | 16 frm| 7B | 16.5 | 12.8 | 16.7 | 22.6 | 22.0 | 8.3  | 12.9 | 13.3 | 16.3 | 15.7  | 4.20 | 2.18 | 3.19  |
-|[MovieChat](https://github.com/rese1f/MovieChat)  | 2048&nbsp;frm| 7B| 18.7 | 10.3 | 23.3 | 15.1 | 16.0 | 30.6 | 17.1 | 15.0 | 16.3 | 18.0  | 3.24 | 2.30 | 2.77  |
+| [MovieChat](https://github.com/rese1f/MovieChat)  | 2048 frm| 7B| 18.7 | 10.3 | 23.3 | 15.1 | 16.0 | 30.6 | 17.1 | 15.0 | 16.3 | 18.0  | 3.24 | 2.30 | 2.77  |
 | [mPLUG-Owl-V](https://github.com/X-PLUG/mPLUG-Owl)| 16 frm| 7B| 25.3 | 15.4 | 6.7  | 13.2 | 22.0 | 19.4 | 14.3 | 20.0 | 18.6 | 17.2  | 5.01 | 2.20 | 3.61  |
 | [LLaMA-VID](https://github.com/dvlab-research/LLaMA-VID) | 1 fps| 7B| 20.9 | 23.1 | 21.7 | 11.3 | 16.0 | 16.7 | 18.6 | 15.0 | 11.6 | 17.2  | 4.15 | 2.70 | 3.43  |
+
 
 
 
