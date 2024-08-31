@@ -60,6 +60,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 | [LLaVA-OneVision](https://github.com/LLaVA-VL/LLaVA-NeXT/tree/main) | 32 frm | 72B | 66.4 | -- |
 | [GPT-4o](https://openai.com/index/hello-gpt-4o/) | 0.5&nbsp;fps | - | 64.6 | 5.80 |
 | [Video-CCAM](https://github.com/QQ-MM/Video-CCAM) | 96 frm | 14B | 63.1 | 4.01 |
+| [VideoLLaMA2](https://github.com/DAMO-NLP-SG/VideoLLaMA2) | 16 frm | 72B | 61.2 | -- |
 | [VILA-1.5](https://github.com/NVlabs/VILA) | 14 frm | 40B | 56.7 | 4.31 |
 | [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) | 256&nbsp;frm | 7B | 56.3 | 4.33 |
 | [InternVL-1.5](https://github.com/OpenGVLab/InternVL) | 16 frm | 26B | 50.4 | 4.02 |
