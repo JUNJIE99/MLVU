@@ -53,7 +53,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 
 
 
-## :trophy: Mini-Leaderboard
+## :trophy: Mini-Leaderboard (MLVU Dev Set)
 | Model | Input | Size | M-Avg | G-Avg |
 | --- | --- | --- | --- | --- |
 | Full mark | - | - | 100 | 10 |
