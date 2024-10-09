@@ -89,7 +89,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 | [Otter-V](https://github.com/Luodian/Otter) | 16 frm | 7B | 24.4 | 3.31 |
 | [Otter-I](https://github.com/Luodian/Otter) | 16 frm | 7B | 23.3 | 3.15 |
 
-{'TR': 85.71428571428571, 'AR': 51.28205128205128, 'NQA': 48.333333333333336, 'ER': 47.16981132075472, 'PQA': 52.0, 'AO': 32.857142857142854, 'AC': 15.0, 'SQA': 44.44444444444444, 'TQA': 34.883720930232556, 'Avg': 45.742754431360545}
+
 ## :trophy: MLVU-Test Leaderboard
 This table is sorted by M-AVG in descending order. * means the proprietary models.
 |            | Input  | Size |  TR   |  AR   |  NQA  |  ER   |  PQA  |  SQA  |  AO   |  AC   |  TQA  | M-AVG |  SSC  |  VS   | G-Avg |
