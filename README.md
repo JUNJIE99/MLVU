@@ -96,7 +96,7 @@ This table is sorted by M-AVG in descending order. * means the proprietary model
 |------------|--------|------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
 | [GPT-4o*](https://openai.com/index/hello-gpt-4o/)     | 0.5&nbsp;fps| -- | 83.7  | 68.8  | 42.9  | 47.8  | 57.1  | 63.6  | 46.2  | 35.0  | 48.7  | 54.9  | 6.80  | 4.94  | 5.87  |
 | [InternVL2](https://internvl.github.io/blog/2024-07-02-InternVL-2.0) | 16 frm | 76B | 85.7  | 51.3  | 48.3  | 47.2  | 52.0  |44.4  | 32.9  | 15.0  | 34.9  | 45.7  | -- | -- | -- |
-| [VideoLLaMA2](https://github.com/DAMO-NLP-SG/VideoLLaMA2) | 16 frm | 72B | 80.2  | 53.8  | 36.7  | 54.7  | 54.0  | 38.9  | 42.9  | 16.7  | 32.6  | 45.6  | -- | -- | -- |
+| [VideoLLaMA2](https://github.com/DAMO-NLP-SG/VideoLLaMA2) | 16 frm | 72B | 80.2  | 53.8  | 36.7  | 54.7  | 54.0  | 38.9  | 42.9  | 16.7  | 32.6  | 45.6  | 5.09 | 2.80 | 3.95 |
 | [VILA-1.5](https://github.com/NVlabs/VILA)        | 14 frm | 40B | 84.7  | 56.4  | 38.3  | 35.8  | 62.0  | 38.8  | 34.3  | 11.7  | 34.9  | 44.2  | 5.11  | 2.53  | 3.82  |
 | [GPT-4 Turbo*](https://openai.com/index/gpt-4v-system-card/)    | 16 frm | -- | 85.7  | 61.5  | 40.0  | 41.5  | 48.0  | 41.7  | 22.9  | 6.7   | 41.9  | 43.3  | 4.95  | 4.38  | 4.67  |
 | [Video-CCAM](https://github.com/QQ-MM/Video-CCAM) | 96 frm | 14B | 79.1  | 38.5  | 45.0  | 52.8  | 56.0  | 33.3  | 24.3  | 26.7  | 30.2  | 42.9  | -- | -- | -- |
