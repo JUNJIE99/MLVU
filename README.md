@@ -90,10 +90,13 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 | [Otter-V](https://github.com/Luodian/Otter) | 16 frm | 7B | 24.4 | 3.31 |
 | [Otter-I](https://github.com/Luodian/Otter) | 16 frm | 7B | 23.3 | 3.15 |
 
+
+
 ## :trophy: MLVU-Test Leaderboard
 This table is sorted by M-AVG in descending order. * means the proprietary models.
 |            | Input  | Size |  TR   |  AR   |  NQA  |  ER   |  PQA  |  SQA  |  AO   |  AC   |  TQA  | M-AVG |  SSC  |  VS   | G-Avg |
 |------------|--------|------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| [Aria](https://rhymes.ai/blog-details/aria-first-open-multimodal-native-moe-model)     | 256 from | 25B | 86.8  | 64.1  | 75.0  | 56.6  | 66.0  | 58.3  | 48.6  | 25.0  | 46.5  | 58.5  | --  | --  | -- |
 | [GPT-4o*](https://openai.com/index/hello-gpt-4o/)     | 0.5&nbsp;fps| -- | 83.7  | 68.8  | 42.9  | 47.8  | 57.1  | 63.6  | 46.2  | 35.0  | 48.7  | 54.9  | 6.80  | 4.94  | 5.87  |
 | [LLaVA-OneVision](https://github.com/LLaVA-VL/LLaVA-NeXT/tree/main) | 32 frm | 72B | 83.5  | 56.4  | 46.7  | 58.4  | 58.0 | 27.8 |35.7  | 23.3  | 34.9 | 47.2  | 5.09 | 3.75 | 4.42 |
 | [InternVL2](https://internvl.github.io/blog/2024-07-02-InternVL-2.0) | 16 frm | 76B | 85.7  | 51.3  | 48.3  | 47.2  | 52.0  |44.4  | 32.9  | 15.0  | 34.9  | 45.7  | 5.25 | 2.55 | 3.90 |
