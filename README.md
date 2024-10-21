@@ -92,7 +92,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 | [Otter-I](https://github.com/Luodian/Otter) | 16 frm | 7B | 23.3 | 3.15 |
 
 
-
+{'TR': 78.02197802197803, 'AR': 28.205128205128204, 'NQA': 50.0, 'ER': 41.509433962264154, 'PQA': 46.0, 'AO': 48.57142857142857, 'AC': 31.666666666666664, 'SQA': 41.66666666666667, 'TQA': 44.18604651162791, 'Avg': 45.536372067306694}
 ## :trophy: MLVU-Test Leaderboard
 This table is sorted by M-AVG in descending order. * means the proprietary models.
 |            | Input  | Size |  TR   |  AR   |  NQA  |  ER   |  PQA  |  SQA  |  AO   |  AC   |  TQA  | M-AVG |  SSC  |  VS   | G-Avg |
@@ -102,6 +102,7 @@ This table is sorted by M-AVG in descending order. * means the proprietary model
 | [LLaVA-OneVision](https://github.com/LLaVA-VL/LLaVA-NeXT/tree/main) | 32 frm | 72B | 83.5  | 56.4  | 46.7  | 58.4  | 58.0 | 27.8 |35.7  | 23.3  | 34.9 | 47.2  | 5.09 | 3.75 | 4.42 |
 | [InternVL2](https://internvl.github.io/blog/2024-07-02-InternVL-2.0) | 16 frm | 76B | 85.7  | 51.3  | 48.3  | 47.2  | 52.0  |44.4  | 32.9  | 15.0  | 34.9  | 45.7  | 5.25 | 2.55 | 3.90 |
 | [VideoLLaMA2](https://github.com/DAMO-NLP-SG/VideoLLaMA2) | 16 frm | 72B | 80.2  | 53.8  | 36.7  | 54.7  | 54.0  | 38.9  | 42.9  | 16.7  | 32.6  | 45.6  | 5.09 | 2.80 | 3.95 |
+| [Video-XL](https://github.com/VectorSpaceLab/Video-XL) | 256 frm | 7B | 78.0  | 28.2  | 50.0  | 41.5  | 46.0  | 41.6  | 48.6  | 31.7  | 44.2  | 45.5  | 5.02 | 3.40 | 4.21 |
 | [VILA-1.5](https://github.com/NVlabs/VILA)        | 14 frm | 40B | 84.7  | 56.4  | 38.3  | 35.8  | 62.0  | 38.8  | 34.3  | 11.7  | 34.9  | 44.2  | 5.11  | 2.53  | 3.82  |
 | [GPT-4 Turbo*](https://openai.com/index/gpt-4v-system-card/)    | 16 frm | -- | 85.7  | 61.5  | 40.0  | 41.5  | 48.0  | 41.7  | 22.9  | 6.7   | 41.9  | 43.3  | 4.95  | 4.38  | 4.67  |
 | [Video-CCAM](https://github.com/QQ-MM/Video-CCAM) | 96 frm | 14B | 79.1  | 38.5  | 45.0  | 52.8  | 56.0  | 33.3  | 24.3  | 26.7  | 30.2  | 42.9  | 4.49 | 2.65 | 3.57 |
