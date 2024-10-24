@@ -57,7 +57,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 | Model | Input | Size | M-Avg | G-Avg |
 | --- | --- | --- | --- | --- |
 | Full mark | - | - | 100 | 10 |
-| [Oryx](https://oryx-mllm.github.io) | 64 frm | 34B | 70.8 | -- |
+| [Oryx-1.5](https://oryx-mllm.github.io) | 128 frm | 32B | 72.3 | -- |
 | [Aria](https://rhymes.ai/blog-details/aria-first-open-multimodal-native-moe-model) | 256 frm | 25B | 70.6 | 5.02 |
 | [LLaVA-OneVision](https://github.com/LLaVA-VL/LLaVA-NeXT/tree/main) | 32 frm | 72B | 66.4 | -- |
 | [Video-XL](https://github.com/VectorSpaceLab/Video-XL) | 256 frm | 7B | 64.9 | 4.50 |
