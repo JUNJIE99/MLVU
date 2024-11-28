@@ -105,7 +105,7 @@ This table is sorted by M-AVG in descending order. * means the proprietary model
 | [VideoLLaMA2](https://github.com/DAMO-NLP-SG/VideoLLaMA2) | 16 frm | 72B | 80.2  | 53.8  | 36.7  | 54.7  | 54.0  | 38.9  | 42.9  | 16.7  | 32.6  | 45.6  | 5.09 | 2.80 | 3.95 |
 | [Video-XL](https://github.com/VectorSpaceLab/Video-XL) | 256 frm | 7B | 78.0  | 28.2  | 50.0  | 41.5  | 46.0  | 41.6  | 48.6  | 31.7  | 44.2  | 45.5  | 5.02 | 3.40 | 4.21 |
 | [VILA-1.5](https://github.com/NVlabs/VILA)        | 14 frm | 40B | 84.7  | 56.4  | 38.3  | 35.8  | 62.0  | 38.8  | 34.3  | 11.7  | 34.9  | 44.2  | 5.11  | 2.53  | 3.82  |
-| [GPT-4 Turbo*](https://openai.com/index/gpt-4v-system-card/)    | 16 frm | -- | 85.7  | 61.5  | 40.0  | 41.5  | 48.0  | 41.7  | 22.9  | 6.7   | 41.9  | 43.3  | 4.95  | 4.38  | 4.67  |
+| [TS-LLaVA](https://github.com/tingyu215/TS-LLaVA)        | 50 frm | 34B | 83.5  | 43.6  | 55.0  | 32.1  | 46.0  | 55.6  | 28.6  | 10.0  | 32.6  | 43.0  | --  | --  | --  |
 | [Video-CCAM](https://github.com/QQ-MM/Video-CCAM) | 96 frm | 14B | 79.1  | 38.5  | 45.0  | 52.8  | 56.0  | 33.3  | 24.3  | 26.7  | 30.2  | 42.9  | 4.49 | 2.65 | 3.57 |
 | [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA)    | 256&nbsp;frm | 7B | 81.3  | 41.0  | 46.7  | 39.6  | 46.0  | 44.4  | 17.1  | 23.3  | 30.2  | 41.1  | 4.92  | 2.90  | 3.91  |
 | [InternVL-1.5](https://github.com/OpenGVLab/InternVL)   | 16 frm | 26B | 80.2  | 51.3  | 40.0  | 24.5  | 42.0  | 30.6  | 14.3  | 13.3  | 39.5  | 37.3  | 5.18  | 2.73  | 3.96  |
