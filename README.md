@@ -100,6 +100,7 @@ This table is sorted by M-AVG in descending order. * means the proprietary model
 |            | Input  | Size |  TR   |  AR   |  NQA  |  ER   |  PQA  |  SQA  |  AO   |  AC   |  TQA  | M-AVG |  SSC  |  VS   | G-Avg |
 |------------|--------|------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
 | [Aria](https://rhymes.ai/blog-details/aria-first-open-multimodal-native-moe-model)     | 256 frm | 25B | 86.8  | 64.1  | 75.0  | 56.6  | 66.0  | 58.3  | 48.6  | 25.0  | 46.5  | 58.5  | --  | --  | -- |
+| [ReTaKe](https://github.com/SCZwangxiao/video-ReTaKe)     | 2&nbsp;fps | 7B | 82.4  | 59.0  | 78.3  | 60.3  | 64.0  | 55.6  | 35.7  | 26.7  | 46.5  | 56.5  | 4.55  | 3.20  | 3.88 |
 | [GPT-4o*](https://openai.com/index/hello-gpt-4o/)     | 0.5&nbsp;fps| -- | 83.7  | 68.8  | 42.9  | 47.8  | 57.1  | 63.6  | 46.2  | 35.0  | 48.7  | 54.9  | 6.80  | 4.94  | 5.87  |
 | [TimeMarker](https://github.com/TimeMarker-LLM/TimeMarker/) | 128 frm | 8B | 85.7  | 53.9  | 65.0  | 49.1  | 52.0 | 41.7 | 31.4  | 26.7  | 37.2 | 49.2  | 4.02 | 3.20 | 3.61 |
 | [LLaVA-OneVision](https://github.com/LLaVA-VL/LLaVA-NeXT/tree/main) | 32 frm | 72B | 83.5  | 56.4  | 46.7  | 58.4  | 58.0 | 27.8 |35.7  | 23.3  | 34.9 | 47.2  | 5.09 | 3.75 | 4.42 |
