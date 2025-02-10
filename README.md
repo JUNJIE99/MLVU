@@ -108,6 +108,7 @@ This table is sorted by M-AVG in descending order. * means the proprietary model
 | [InternVL2](https://internvl.github.io/blog/2024-07-02-InternVL-2.0) | 16 frm | 76B | 85.7  | 51.3  | 48.3  | 47.2  | 52.0  |44.4  | 32.9  | 15.0  | 34.9  | 45.7  | 5.25 | 2.55 | 3.90 |
 | [VideoLLaMA2](https://github.com/DAMO-NLP-SG/VideoLLaMA2) | 16 frm | 72B | 80.2  | 53.8  | 36.7  | 54.7  | 54.0  | 38.9  | 42.9  | 16.7  | 32.6  | 45.6  | 5.09 | 2.80 | 3.95 |
 | [Video-XL](https://github.com/VectorSpaceLab/Video-XL) | 256 frm | 7B | 78.0  | 28.2  | 50.0  | 41.5  | 46.0  | 41.6  | 48.6  | 31.7  | 44.2  | 45.5  | 5.02 | 3.40 | 4.21 |
+| [Video-LLaMA3](https://github.com/DAMO-NLP-SG/VideoLLaMA3)| 256 frm | 7B | 82.4  | 41.0  | 61.7  | 52.8  | 64.0  | 24.3  | 21.7  | 33.3  | 27.9  | 45.5  | 5.02 | 3.20 | 4.07 |
 | [VILA-1.5](https://github.com/NVlabs/VILA)        | 14 frm | 40B | 84.7  | 56.4  | 38.3  | 35.8  | 62.0  | 38.8  | 34.3  | 11.7  | 34.9  | 44.2  | 5.11  | 2.53  | 3.82  |
 | [TS-LLaVA](https://github.com/tingyu215/TS-LLaVA)        | 50 frm | 34B | 83.5  | 43.6  | 55.0  | 32.1  | 46.0  | 55.6  | 28.6  | 10.0  | 32.6  | 43.0  | --  | --  | --  |
 | [Video-CCAM](https://github.com/QQ-MM/Video-CCAM) | 96 frm | 14B | 79.1  | 38.5  | 45.0  | 52.8  | 56.0  | 33.3  | 24.3  | 26.7  | 30.2  | 42.9  | 4.49 | 2.65 | 3.57 |
