@@ -104,11 +104,12 @@ This table is sorted by M-AVG in descending order. * means the proprietary model
 | [ReTaKe](https://github.com/SCZwangxiao/video-ReTaKe)     | 2&nbsp;fps | 7B | 82.4  | 59.0  | 78.3  | 60.3  | 64.0  | 55.6  | 35.7  | 26.7  | 46.5  | 56.5  | 4.55  | 3.20  | 3.88 |
 | [GPT-4o*](https://openai.com/index/hello-gpt-4o/)     | 0.5&nbsp;fps| -- | 83.7  | 68.8  | 42.9  | 47.8  | 57.1  | 63.6  | 46.2  | 35.0  | 48.7  | 54.9  | 6.80  | 4.94  | 5.87  |
 | [TimeMarker](https://github.com/TimeMarker-LLM/TimeMarker/) | 128 frm | 8B | 85.7  | 53.9  | 65.0  | 49.1  | 52.0 | 41.7 | 31.4  | 26.7  | 37.2 | 49.2  | 4.02 | 3.20 | 3.61 |
+| [Video-LLaMA3](https://github.com/DAMO-NLP-SG/VideoLLaMA3)| <=180 frm | 7B | 76.9  | 43.6  | 68.3  | 54.7  | 58.0  | 34.3  | 25.0  | 33.3  | 34.9  | 47.7  | 4.07 | 3.20 | 3.64 |
 | [LLaVA-OneVision](https://github.com/LLaVA-VL/LLaVA-NeXT/tree/main) | 32 frm | 72B | 83.5  | 56.4  | 46.7  | 58.4  | 58.0 | 27.8 |35.7  | 23.3  | 34.9 | 47.2  | 5.09 | 3.75 | 4.42 |
 | [InternVL2](https://internvl.github.io/blog/2024-07-02-InternVL-2.0) | 16 frm | 76B | 85.7  | 51.3  | 48.3  | 47.2  | 52.0  |44.4  | 32.9  | 15.0  | 34.9  | 45.7  | 5.25 | 2.55 | 3.90 |
 | [VideoLLaMA2](https://github.com/DAMO-NLP-SG/VideoLLaMA2) | 16 frm | 72B | 80.2  | 53.8  | 36.7  | 54.7  | 54.0  | 38.9  | 42.9  | 16.7  | 32.6  | 45.6  | 5.09 | 2.80 | 3.95 |
 | [Video-XL](https://github.com/VectorSpaceLab/Video-XL) | 256 frm | 7B | 78.0  | 28.2  | 50.0  | 41.5  | 46.0  | 41.6  | 48.6  | 31.7  | 44.2  | 45.5  | 5.02 | 3.40 | 4.21 |
-| [Video-LLaMA3](https://github.com/DAMO-NLP-SG/VideoLLaMA3)| <=128 frm | 7B | 82.4  | 41.0  | 61.7  | 52.8  | 64.0  | 24.3  | 21.7  | 33.3  | 27.9  | 45.5  | 4.07 | 3.20 | 3.64 |
+
 | [VILA-1.5](https://github.com/NVlabs/VILA)        | 14 frm | 40B | 84.7  | 56.4  | 38.3  | 35.8  | 62.0  | 38.8  | 34.3  | 11.7  | 34.9  | 44.2  | 5.11  | 2.53  | 3.82  |
 | [TS-LLaVA](https://github.com/tingyu215/TS-LLaVA)        | 50 frm | 34B | 83.5  | 43.6  | 55.0  | 32.1  | 46.0  | 55.6  | 28.6  | 10.0  | 32.6  | 43.0  | --  | --  | --  |
 | [Video-CCAM](https://github.com/QQ-MM/Video-CCAM) | 96 frm | 14B | 79.1  | 38.5  | 45.0  | 52.8  | 56.0  | 33.3  | 24.3  | 26.7  | 30.2  | 42.9  | 4.49 | 2.65 | 3.57 |
