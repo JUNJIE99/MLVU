@@ -58,7 +58,7 @@ Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challe
 | Model | Input | Size | M-Avg | G-Avg |
 | --- | --- | --- | --- | --- |
 | Full mark | - | - | 100 | 10 |
-| [VideoChat2-Flash](https://github.com/OpenGVLab/VideoChat-Flash) | - | 7B | 74.7 | -- |
+| [VideoChat-Flash](https://github.com/OpenGVLab/VideoChat-Flash) | 1fps | 7B | 74.7 | -- |
 | [VideoLLaMA3](https://github.com/DAMO-NLP-SG/VideoLLaMA3) | <=180 frm | 7B | 73.0 | -- |
 | [Oryx-1.5](https://oryx-mllm.github.io) | 128 frm | 32B | 72.3 | -- |
 | [Aria](https://rhymes.ai/blog-details/aria-first-open-multimodal-native-moe-model) | 256 frm | 25B | 70.6 | 5.02 |
