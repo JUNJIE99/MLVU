@@ -50,7 +50,7 @@ We introduce MLVU: the first comprehensive benchmark designed for evaluating Mul
 
 Our evaluation of 20 popular MLLMs, including GPT-4o, reveals significant challenges in LVU, with even the top-performing GPT-4o only achieving an average score of 64.6% in multi-choice tasks. In addition, our empirical results underscore the need for improvements in context length, image understanding, and strong LLM-backbones. We anticipate that MLVU will serve as a catalyst for the community to further advance MLLMs' capabilities in understanding long videos.
 
-![Statistical Overview of our MLVU benchmark. **Left:** Video genres included in MLVU; **Top Right:** Distribution of video duration; **Bottom Right:** Task types and their counts in MLVU.](./figs/statistic.pdf)
+![Statistical Overview of our MLVU benchmark. **Left:** Video genres included in MLVU; **Top Right:** Distribution of video duration; **Bottom Right:** Task types and their counts in MLVU.](./figs/statistic.png)
 
 
 
