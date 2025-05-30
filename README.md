@@ -188,8 +188,8 @@ If you find this repository useful, please consider giving a star :star: and cit
 @article{MLVU,
   title={MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding},
   author={Zhou, Junjie and Shu, Yan and Zhao, Bo and Wu, Boya and Xiao, Shitao and Yang, Xi and Xiong, Yongping and Zhang, Bo and Huang, Tiejun and Liu, Zheng},
-  journal={arXiv preprint arXiv:2406.04264},
-  year={2024}
+  journal={arXiv preprint arXiv:2505.22810},
+  year={2025}
 }
 ```
 
