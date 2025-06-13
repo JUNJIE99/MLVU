@@ -101,7 +101,7 @@ This table is sorted by M-AVG in descending order. * means the proprietary model
 |            | Input  | Size |  TR   |  AR   |  NQA  |  ER   |  PQA  |  SQA  |  AO   |  AC   |  TQA  | M-AVG |  SSC  |  VS   | G-Avg |
 |------------|--------|------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
 | [AdaReTaKe](https://github.com/SCZwangxiao/video-FlexReduc)     | <=1024 frm | 72B | 89.0  | 59.0  | 76.7  | 75.5  | 76.0  | 61.1  | 62.9  | 33.3  | 62.8  | 66.3  | 5.63  | 3.18  | 4.41 |
-| [FlexSelect](https://github.com/yunzhuzhang0918/flexselect)     | <=1024 frm | 72B | 86.8  | 59.0  | 70.0  | 75.5  | 76.0  | 58.3  | 64.3  | 36.7  | 67.4  | 66.0  | 4.88  | 3.83  | 4.88 |
+| [FlexSelect](https://github.com/yunzhuzhang0918/flexselect)     | <=1024 frm | 72B | 86.8  | 59.0  | 70.0  | 75.5  | 76.0  | 58.3  | 64.3  | 36.7  | 67.4  | 66.0  | 5.93  | 3.83  | 4.88 |
 | [Aria](https://rhymes.ai/blog-details/aria-first-open-multimodal-native-moe-model)     | 256 frm | 25B | 86.8  | 64.1  | 75.0  | 56.6  | 66.0  | 58.3  | 48.6  | 25.0  | 46.5  | 58.5  | --  | --  | -- |
 | [ReTaKe](https://github.com/SCZwangxiao/video-ReTaKe)     | 2&nbsp;fps | 7B | 82.4  | 59.0  | 78.3  | 60.3  | 64.0  | 55.6  | 35.7  | 26.7  | 46.5  | 56.5  | 4.55  | 3.20  | 3.88 |
 | [GPT-4o*](https://openai.com/index/hello-gpt-4o/)     | 0.5&nbsp;fps| -- | 83.7  | 68.8  | 42.9  | 47.8  | 57.1  | 63.6  | 46.2  | 35.0  | 48.7  | 54.9  | 6.80  | 4.94  | 5.87  |
